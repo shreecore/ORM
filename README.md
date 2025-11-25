@@ -47,8 +47,8 @@ admin.site.register(Customer,CustomerAdmin)```
 
 
 ## OUTPUT
+https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/acer/Desktop/git/ORM/image.png?version%3D1764038247334
 
-![alt text](image.png)
 
 ## RESULT
 Thus the program for creating car inventory database database using ORM hass been executed successfully
