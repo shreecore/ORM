@@ -24,7 +24,8 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 Models.py
-```from django.db import models
+```
+from django.db import models
 from django.contrib import admin
 class Customer(models.Model):
     regid=models.CharField(max_length=20,help_text="Register ID")
@@ -34,20 +35,19 @@ class Customer(models.Model):
 
 class CustomerAdmin(admin.ModelAdmin):
 
-    list_display=('regid','name','price','year')```
+    list_display=('regid','name','price','year')
+```
 
 admin.py
-```from django.contrib import admin
+```
+from django.contrib import admin
 from . models import Customer,CustomerAdmin
-admin.site.register(Customer,CustomerAdmin)```
-
-
-
-
-
+admin.site.register(Customer,CustomerAdmin)
+```
 
 ## OUTPUT
-https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/acer/Desktop/git/ORM/image.png?version%3D1764038247334
+<img width="1522" height="300" alt="Screenshot 2025-11-24 142208" src="https://github.com/user-attachments/assets/56fd7b1a-b95e-4722-aeef-dd2753ce743c" />
+
 
 
 ## RESULT
